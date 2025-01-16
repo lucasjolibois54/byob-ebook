@@ -6,14 +6,14 @@ export default function Hero() {
 
   const { scrollYProgress } = useScroll();
   // Scale the hero image
-  const rawScale = useTransform(scrollYProgress, [0, 0.56], [1, 0.56]);
+  const rawScale = useTransform(scrollYProgress, [0, 0.1], [1, 0.56]);
   const scale = useSpring(rawScale, {
     stiffness: 80,
     damping: 20,
   });
 
   // Fade out the text
-  const opacity = useTransform(scrollYProgress, [0, 0.1], [1, 0]);
+  const opacity = useTransform(scrollYProgress, [0, 0.02], [1, 0]);
 
     // Fade out the dark overlay
     const rawOverlayOpacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);

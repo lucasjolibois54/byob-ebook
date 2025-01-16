@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { HoverBorderButton } from '../components/buttons/hoverborderbutton'
+import { HoverBorderButton } from '../buttons/hoverborderbutton'
 
 export default function Nav() {
   return (

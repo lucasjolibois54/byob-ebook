@@ -9,30 +9,37 @@ import ParallaxImage from "@/lib/ParallaxImage";
  * This component renders the "More About Us" page.
  */
 const MoreAboutUs = () => {
-  const moreAboutTitle = "More About Us";
+  const moreAboutTitle = "What you'll learn";
 
   const sections = [
     {
       id: 1,
-      title: "Our History",
+      title: "learn to fade",
       info: "Learn about our journey and how we've grown over the years.",
       src: "/images/about/other/moreAboutUs_finalizedweb.jpg",
       alt: "Company history",
     },
     {
       id: 2,
-      title: "Our Commitment",
+      title: "learn to use RAZOR",
       info: "Discover our dedication to quality and innovation.",
       src: "/images/about/other/moreAboutUs_finalizedweb_2.jpg",
       alt: "Our commitment",
     },
     {
       id: 3,
-      title: "Innovation",
+      title: "learn to fade beard",
       info: "See how we embrace technology to stay ahead.",
       src: "/images/about/other/moreAboutUs_finalizedweb_3.jpg",
       alt: "Innovation",
     },
+    {
+        id: 4,
+        title: "learn to do brows",
+        info: "See how we embrace technology to stay ahead.",
+        src: "/images/about/other/moreAboutUs_finalizedweb_3.jpg",
+        alt: "Innovation",
+      },
   ];
 
   const [visibleSectionId, setVisibleSectionId] = useState<number | null>(null);
@@ -70,7 +77,7 @@ const MoreAboutUs = () => {
 
   return (
     <>
-      <div className="bg-[#4B514D] mt-52 md:mx-4 px-5 md:px-0 rounded-md">
+      <div className=" mt-52 md:mx-4 px-5 md:px-0 rounded-md"> {/* bg-[#4B514D] */}
         <div className="max-w-7xl mx-auto">
           <div className="mx-5 sm:mx-10">
             <div className="hidden md:flex w-full items-start py-28">

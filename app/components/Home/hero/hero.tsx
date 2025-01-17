@@ -22,11 +22,22 @@ export default function Hero() {
       damping: 20,
     });
 
-    const stylesleft: React.CSSProperties = {
-        willChange: 'transform',
-         transform: 'translate3d(0px, 0.1328%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
-        transformStyle: 'preserve-3d'
-      };
+    
+
+// Downward motion
+const rawTranslateYDown = useTransform(scrollYProgress, [0, 1], [0, 100]); // Downward animation
+const translateYDown = useSpring(rawTranslateYDown, {
+  stiffness: 60,
+  damping: 20,
+});
+
+// Upward motion
+const rawTranslateYUp = useTransform(scrollYProgress, [0, 1], [100, 0]); // Upward animation
+const translateYUp = useSpring(rawTranslateYUp, {
+  stiffness: 60,
+  damping: 20,
+});
+
 
       const stylesright: React.CSSProperties = {
         willChange: 'transform',
@@ -65,26 +76,26 @@ export default function Hero() {
         style={{ opacity: overlayOpacity }} transition={{ duration: 0.5 }}
       />
                     {/*right side images*/}
-                    <div className='left-[-27%] flex flex-col absolute w-[46%] h-full justify-center gap-[3.13em]' style={stylesleft}> 
+                    <div className='left-[-27%] flex flex-col absolute w-[46%] h-full justify-center gap-[3.13em]' > 
                         <div className=' flex flex-col relative top-0 w-full h-full justify-center gap-[3.13em]'>
-                            <div className='h-[50%] flex-none w-full'>
+                            <motion.div className='h-[50%] flex-none w-full' style={{ translateY: translateYDown }}>
                                 <Image src={"https://cdn.prod.website-files.com/65dc57b17286ce9d8bea2bb3/65dc57b17286ce9d8bea2c21_grav-4FOQ-3P6Up0-unsplash.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
-                            </div>
-                            <div className='h-[70%] flex-none w-full'>
+                            </motion.div>
+                            <motion.div className='h-[70%] flex-none w-full' style={{ translateY: translateYDown }}>
                                 <Image src={"https://cdn.prod.website-files.com/65dc57b17286ce9d8bea2bb3/65dc57b17286ce9d8bea2c21_grav-4FOQ-3P6Up0-unsplash.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
-                            </div>
+                            </motion.div>
                         </div>
                     </div>
 
                      {/*right side images*/}
-                     <div className='right-[-27%] flex flex-col absolute w-[46%] h-full justify-center gap-[3.13em]' style={stylesright}> 
+                     <div className='right-[-27%] flex flex-col absolute w-[46%] h-full justify-center gap-[3.13em]' > 
                         <div className=' flex flex-col relative top-0 w-full h-full justify-center gap-[3.13em]'>
-                            <div className='h-[80%] flex-none w-full'>
+                            <motion.div className='h-[80%] flex-none w-full' style={{ translateY: translateYUp }}>
                                 <Image src={"https://cdn.prod.website-files.com/65dc57b17286ce9d8bea2bb3/65dc57b17286ce9d8bea2c21_grav-4FOQ-3P6Up0-unsplash.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
-                            </div>
-                            <div className='h-[60%] flex-none w-full'>
+                            </motion.div >
+                            <motion.div className='h-[60%] flex-none w-full' style={{ translateY: translateYUp }}>
                                 <Image src={"https://cdn.prod.website-files.com/65dc57b17286ce9d8bea2bb3/65dc57b17286ce9d8bea2c21_grav-4FOQ-3P6Up0-unsplash.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
-                            </div>
+                            </motion.div>
                         </div>
                     </div>
                 </div>
@@ -108,10 +119,10 @@ export default function Hero() {
                     </div>
                     <div className='flex-none w-[56%] h-[56%]'></div>
                     {/*bottom middle image*/}
-                    <div className='z-[1] flex-none w-[56%] h-[30%] relative overflow-hidden' style={stylesmiddlebottom}>
-                        <div className='flex items-center justify-center w-full h-full overflow-hidden'>
+                    <div className='z-[1] flex-none w-[56%] h-[30%] relative overflow-hidden' >
+                        <motion.div className='flex items-center justify-center w-full h-full overflow-hidden' style={{ translateY: translateYDown }}>
                         <Image src={"https://cdn.prod.website-files.com/65dc57b17286ce9d8bea2bb3/65dc57b17286ce9d8bea2c21_grav-4FOQ-3P6Up0-unsplash.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
-                        </div>
+                        </motion.div>
                     </div>
 
                 </div>

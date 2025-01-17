@@ -22,7 +22,6 @@ export default function Hero() {
       damping: 20,
     });
 
-    
 
 // Downward motion
 const rawTranslateYDown = useTransform(scrollYProgress, [0, 1], [0, 100]); // Downward animation
@@ -39,18 +38,6 @@ const translateYUp = useSpring(rawTranslateYUp, {
 });
 
 
-      const stylesright: React.CSSProperties = {
-        willChange: 'transform',
-        transform: 'translate3d(0px, 14.0982%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
-        transformStyle: 'preserve-3d' as 'preserve-3d',
-      };
-
-      const stylesmiddlebottom: React.CSSProperties = {
-        translate: 'none',
-        rotate: 'none',
-        scale: 'none',
-        transform: 'translateY(-2.27374e-14px)',
-      };
       
   return (
     <section className='relative w-full text-white pointer-events-none'>

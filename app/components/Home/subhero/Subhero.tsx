@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect, useRef, useCallback } from "react";
-import styles from "./page.module.scss";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import ParallaxImage from "@/lib/ParallaxImage";

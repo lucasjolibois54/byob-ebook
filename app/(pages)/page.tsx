@@ -1,3 +1,4 @@
+import AboutUs from "../components/Home/about";
 import { InteractiveFaqAccordion } from "../components/Home/faq/InteractiveFaqAccordion";
 import NewHero from "../components/Home/new-hero/NewHero";
 import ParallaxSection from "../components/Home/new-nubhero/NewSubhero";
@@ -7,6 +8,7 @@ export default function Home() {
   return (
     <div className=" bg-[#09090A] min-h-screen font-[family-name:var(--font-geist-sans)]">
       <NewHero />
+      <AboutUs />
       {/* <ParallaxSection /> */}
       <Subhero />
       <InteractiveFaqAccordion

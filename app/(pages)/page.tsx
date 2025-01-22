@@ -1,11 +1,13 @@
 import { InteractiveFaqAccordion } from "../components/Home/faq/InteractiveFaqAccordion";
 import NewHero from "../components/Home/new-hero/NewHero";
+import ParallaxSection from "../components/Home/new-nubhero/NewSubhero";
 import Subhero from "../components/Home/subhero/Subhero";
 
 export default function Home() {
   return (
     <div className=" bg-[#09090A] min-h-screen font-[family-name:var(--font-geist-sans)]">
-      <NewHero />
+      {/* <NewHero /> */}
+      <ParallaxSection />
       <Subhero />
       <InteractiveFaqAccordion
         faqs={[

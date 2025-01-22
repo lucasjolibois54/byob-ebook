@@ -66,10 +66,10 @@ const translateYUp = useSpring(rawTranslateYUp, {
                     <div className='left-[-27%] flex flex-col absolute w-[46%] h-full justify-center gap-[3.13em]' > 
                         <div className=' flex flex-col relative top-0 w-full h-full justify-center gap-[3.13em]'>
                             <motion.div className='h-[50%] flex-none w-full' style={{ translateY: translateYDown }}>
-                                <Image src={"https://cdn.prod.website-files.com/65dc57b17286ce9d8bea2bb3/65dc57b17286ce9d8bea2c21_grav-4FOQ-3P6Up0-unsplash.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
+                                <Image src={"/images/1.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
                             </motion.div>
                             <motion.div className='h-[70%] flex-none w-full' style={{ translateY: translateYDown }}>
-                                <Image src={"https://cdn.prod.website-files.com/65dc57b17286ce9d8bea2bb3/65dc57b17286ce9d8bea2c21_grav-4FOQ-3P6Up0-unsplash.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
+                                <Image src={"/images/1.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
                             </motion.div>
                         </div>
                     </div>
@@ -78,10 +78,10 @@ const translateYUp = useSpring(rawTranslateYUp, {
                      <div className='right-[-27%] flex flex-col absolute w-[46%] h-full justify-center gap-[3.13em]' > 
                         <div className=' flex flex-col relative top-0 w-full h-full justify-center gap-[3.13em]'>
                             <motion.div className='h-[80%] flex-none w-full' style={{ translateY: translateYUp }}>
-                                <Image src={"https://cdn.prod.website-files.com/65dc57b17286ce9d8bea2bb3/65dc57b17286ce9d8bea2c21_grav-4FOQ-3P6Up0-unsplash.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
+                                <Image src={"/images/2.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
                             </motion.div >
                             <motion.div className='h-[60%] flex-none w-full' style={{ translateY: translateYUp }}>
-                                <Image src={"https://cdn.prod.website-files.com/65dc57b17286ce9d8bea2bb3/65dc57b17286ce9d8bea2c21_grav-4FOQ-3P6Up0-unsplash.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
+                                <Image src={"/images/2.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
                             </motion.div>
                         </div>
                     </div>
@@ -89,13 +89,13 @@ const translateYUp = useSpring(rawTranslateYUp, {
                     {/*middle plus hero images*/}
                 <div className='gap-[3em] flex flex-col justify-center items-center w-full h-full'>
                     <div className='z-[1] flex-none w-[56%] h-[30%]'>
-                    <Image src={"https://cdn.prod.website-files.com/65dc57b17286ce9d8bea2bb3/65dc57b17286ce9d8bea2c21_grav-4FOQ-3P6Up0-unsplash.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
+                    <Image src={"/images/3.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
                     </div>
                     {/*hero image*/}
                     <div className='z-[2] flex-none justify-center items-center w-full h-full flex absolute transform translate-x-0 translate-y-0'>
                         <motion.div className='w-full h-full relative overflow-hidden' style={{ scale }}>
                         <Image
-                            src={"https://cdn.prod.website-files.com/65dc57b17286ce9d8bea2bb3/66f4df3295094b4aa22edf0b_21.avif"}
+                            src={"/images/3.webp"}
                             alt=""
                             sizes="100vw"
                             layout="fill" 
@@ -108,7 +108,7 @@ const translateYUp = useSpring(rawTranslateYUp, {
                     {/*bottom middle image*/}
                     <div className='z-[1] flex-none w-[56%] h-[30%] relative overflow-hidden' >
                         <motion.div className='flex items-center justify-center w-full h-full overflow-hidden' style={{ translateY: translateYDown }}>
-                        <Image src={"https://cdn.prod.website-files.com/65dc57b17286ce9d8bea2bb3/65dc57b17286ce9d8bea2c21_grav-4FOQ-3P6Up0-unsplash.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
+                        <Image src={"/images/2.webp"} alt='' height={1000} width={1000} className='object-cover w-full h-full'/>
                         </motion.div>
                     </div>
 

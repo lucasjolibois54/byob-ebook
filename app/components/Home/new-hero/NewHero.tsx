@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 export default function IntroAnimation() {
   return (
@@ -16,7 +15,7 @@ export default function IntroAnimation() {
         <h1 className="text-[80px] text-neutral-300 font-serif">Selvklip</h1>
       </motion.div>
 
-      {/* Perspective Image Container */}
+      {/* Perspective Video Container */}
       <motion.div
         className="absolute inset-0 flex items-center justify-center"
         initial={{
@@ -55,14 +54,15 @@ export default function IntroAnimation() {
             ease: "easeInOut",
           }}
         >
-          {/* Image with Black Overlay */}
+          {/* Video with Black Overlay */}
           <div className="relative w-full h-full">
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-FkuReMpHXPuSSWnEFaNznzSW7KE7oK.png"
-              alt="Burning wood with flames"
-              fill
-              className="object-cover"
-              priority
+            <video
+              src="https://videos.pexels.com/video-files/3998516/3998516-uhd_2732_1440_25fps.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           </div>
@@ -76,7 +76,7 @@ export default function IntroAnimation() {
         transition={{ delay: 3, duration: 0.5 }}
         className="absolute inset-0 flex items-center justify-start pl-20 z-10"
       >
-        <h1 className="text-[75px] text-neutral-300 font-medium">Become Your Own Barber</h1>
+        <h1 className="text-[80px] text-neutral-300 font-bold">Become Your Own Barber</h1>
       </motion.div>
     </div>
   );

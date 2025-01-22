@@ -5,15 +5,6 @@ import { motion } from "framer-motion";
 export default function IntroAnimation() {
   return (
     <div className="relative h-screen w-full bg-black overflow-hidden">
-      {/* Initial Text */}
-      <motion.div
-        initial={{ opacity: 1 }}
-        animate={{ opacity: 0 }}
-        transition={{ delay: 1.5, duration: 0.5 }}
-        className="absolute inset-0 flex items-center justify-center"
-      >
-        <h1 className="text-[80px] text-neutral-300 font-serif">Selvklip</h1>
-      </motion.div>
 
       {/* Perspective Video Container */}
       <motion.div
@@ -31,8 +22,8 @@ export default function IntroAnimation() {
           rotateY: "0deg",
         }}
         transition={{
-          delay: 2,
-          duration: 1.5,
+          delay: 0,
+          duration: 1,
           ease: "easeOut",
         }}
         style={{
@@ -49,7 +40,7 @@ export default function IntroAnimation() {
             clipPath: "inset(0% 0% 0% 0% round 0)",
           }}
           transition={{
-            delay: 3.5,
+            delay: 1.5,
             duration: 1.5,
             ease: "easeInOut",
           }}
@@ -73,7 +64,7 @@ export default function IntroAnimation() {
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 3, duration: 0.5 }}
+        transition={{ delay: 1, duration: 0.5 }}
         className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 z-10"
       >
         {/* Update Banner */}

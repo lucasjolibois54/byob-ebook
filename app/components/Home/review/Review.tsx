@@ -29,18 +29,18 @@ const Review = () => {
       <div className="flex items-center gap-2">
         <img
           className="rounded-full"
-          width="32"
-          height="32"
+          width="55"
+          height="55"
           alt={review.name}
           src={review.img}
         />
         <div>
-          <figcaption className="text-sm font-medium text-white">{review.name}</figcaption>
-          <p className="text-sm font-medium text-white">★★★★★</p>
+          <figcaption className="text-xl font-medium text-white">{review.name}</figcaption>
+          <p className="text-lg font-medium text-white">★★★★★</p>
         </div>
       </div>
       {/* <span>⭐⭐⭐⭐⭐</span> */}
-      <blockquote className="mt-2 text-sm text-gray-300">
+      <blockquote className="mt-4 text-lg text-gray-300">
         {review.body}
       </blockquote>
       

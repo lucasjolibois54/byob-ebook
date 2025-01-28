@@ -36,7 +36,7 @@ const Review = () => {
         />
         <div>
           <figcaption className="text-sm font-medium text-white">{review.name}</figcaption>
-          <p className="text-xs text-white/40">{review.username}</p>
+          <p className="text-sm font-medium text-white">★★★★★</p>
         </div>
       </div>
       <blockquote className="mt-2 text-sm text-gray-300">

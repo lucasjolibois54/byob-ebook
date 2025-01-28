@@ -39,7 +39,7 @@ const Review = () => {
           <p className="text-sm font-medium text-white">★★★★★</p>
         </div>
       </div>
-      <span>⭐⭐⭐⭐⭐</span>
+      {/* <span>⭐⭐⭐⭐⭐</span> */}
       <blockquote className="mt-2 text-sm text-gray-300">
         {review.body}
       </blockquote>

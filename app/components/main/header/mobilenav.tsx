@@ -5,19 +5,19 @@ import { motion } from "framer-motion";
 const MOBILE_NAV_ITEMS = [
     {
       id: 0,
-      navTitle: "home"
+      navTitle: "About"
     },
     {
       id: 1,
-      navTitle: "showreel"
+      navTitle: "What you'll learn"
     },
     {
       id: 2,
-      navTitle: "services"
+      navTitle: "Reviews"
     },
     {
       id: 3,
-      navTitle: "about"
+      navTitle: "FAQ"
     },
     {
       id: 4,
@@ -118,7 +118,7 @@ export default function MobileNav() {
             className={`flex justify-between px-[45px] py-[35px]`}
           >
             <div className="overflow-y-hidden">
-              <motion.h1 className="uppercase text-[15px] " variants={hideNavItemsVariant}>Design Agency</motion.h1>
+              <motion.h1 className="text-[15px] " variants={hideNavItemsVariant}>BecomeYourOwnBarber</motion.h1>
             </div>
             <div className="overflow-y-hidden">
               <motion.div

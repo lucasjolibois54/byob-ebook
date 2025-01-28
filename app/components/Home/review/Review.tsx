@@ -39,9 +39,11 @@ const Review = () => {
           <p className="text-xs text-white/40">{review.username}</p>
         </div>
       </div>
+      <span>⭐⭐⭐⭐⭐</span>
       <blockquote className="mt-2 text-sm text-gray-300">
         {review.body}
       </blockquote>
+      
     </div>
   ));
 

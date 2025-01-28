@@ -11,7 +11,7 @@ export function HoverBorderButton() {
         className="bg-black  text-white  "
       >
       
-        <span>Aceternity UI</span>
+        <span>Buy Now!</span>
       </HoverBorderGradient>
     </div>
   );

@@ -22,8 +22,8 @@ export default function AboutUs() {
 
   return (
     <>
-      <div id="about_us">
-        <div className="max-w-7xl mx-auto mt-48 px-6 md:px-5 text-white">
+      <div>
+        <div id="about" className="max-w-7xl mx-auto pt-20 mt-20 px-6 md:px-5 text-white">
           <div className="flex gap-10">
             <div className="font-medium w-full md:w-1/2 space-y-14">
               <div className="text-4xl md:text-5xl lg:text-6xl xl:text-6xl xl:leading-[75px]">

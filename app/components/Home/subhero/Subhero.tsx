@@ -76,7 +76,7 @@ const MoreAboutUs = () => {
 
   return (
     <>
-      <div className=" mt-16 md:mx-4 px-5 md:px-0 rounded-md"> {/* bg-[#4B514D] */}
+      <div id="what-you-will-learn" className=" mt-16 md:mx-4 px-5 md:px-0 rounded-md"> {/* bg-[#4B514D] */}
         <div className="max-w-7xl mx-auto">
           <div className="mx-5 sm:mx-10">
             <div className="hidden md:flex w-full items-start py-28">

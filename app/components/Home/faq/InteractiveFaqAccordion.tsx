@@ -67,7 +67,7 @@ export const InteractiveFaqAccordion: React.FC<InteractiveFaqAccordionProps> = (
   );
 
   return (
-    <div className="px-10 pb-20 max-w-7xl mx-auto">
+    <div id='faq' className="px-10 pb-20 max-w-7xl mx-auto">
       <div
         className={`mt-16 space-y-2 ${faqWidth} divide-y ${dividerColor} rounded-2xl p-8 backdrop-blur-lg ${backgroundColor} ${containerClassName}`}
       >

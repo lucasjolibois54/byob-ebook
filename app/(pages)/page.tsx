@@ -1,7 +1,6 @@
 import AboutUs from "../components/Home/about";
 import { InteractiveFaqAccordion } from "../components/Home/faq/InteractiveFaqAccordion";
 import NewHero from "../components/Home/new-hero/NewHero";
-import ParallaxSection from "../components/Home/new-nubhero/NewSubhero";
 import Review from "../components/Home/review/Review";
 import Subhero from "../components/Home/subhero/Subhero";
 

@@ -9,6 +9,9 @@
   }
 
 
+  *{
+    scroll-behavior: smooth;
+  }
 
 button {
   border-style: none;

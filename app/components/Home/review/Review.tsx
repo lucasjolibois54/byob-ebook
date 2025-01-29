@@ -49,9 +49,11 @@ const Review = () => {
 
   // Render the LoopingCarousel component with the review elements
   return (
+    <div id="reviews">
     <LoopingCarousel speed={250} cardWidth={400}>
       {reviewElements}
     </LoopingCarousel>
+    </div>
   );
 };
 

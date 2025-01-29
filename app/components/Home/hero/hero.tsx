@@ -40,7 +40,7 @@ const translateYUp = useSpring(rawTranslateYUp, {
 
       
   return (
-    <section className='relative w-full text-white pointer-events-none'>
+    <section id="top" className='relative w-full text-white pointer-events-none'>
         {/* Dark overlay that fades out */}
      
         <div className='z-[5] bg-transparent absolute h-full inset-x-0 bottom-auto left-0'>

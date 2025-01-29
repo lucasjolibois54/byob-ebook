@@ -111,7 +111,7 @@ export default function MobileNav() {
       }
     
       return (
-        <div className={`overflow-hidden bg-[#131313] block md:hidden z-40 text-white ${mobileNavOpen || isAnimating ? 'h-screen' : 'h-auto'}`}>
+        <div className={`overflow-hidden fixed w-full bg-[#131313] block md:hidden z-40 text-white ${mobileNavOpen || isAnimating ? 'h-screen' : 'h-auto'}`}>
           <motion.nav
             initial="closed"
             animate={mobileNavOpen ? "opened" : "closed"}

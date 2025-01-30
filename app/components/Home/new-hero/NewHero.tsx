@@ -48,7 +48,7 @@ export default function IntroAnimation() {
           {/* Video with Black Overlay */}
           <div className="relative w-full h-full">
             <video
-              src="https://videos.pexels.com/video-files/3998516/3998516-uhd_2732_1440_25fps.mp4"
+              src="https://res.cloudinary.com/dh4iesekp/video/upload/v1738253732/TIKTOKMAIN_z68khp.mp4"
               autoPlay
               loop
               muted

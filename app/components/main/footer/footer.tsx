@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
         <div className="bg-[#09090A] relative">
-             <div className=" top-0 left-0 w-1/2 mx-auto h-[1px] bg-gradient-to-r from-gray-300 via-yellow-600 to-yellow-700 animate-shimmer"></div>
+             <div className=" top-0 left-0 w-full lg:w-1/2 mx-auto h-[1px] bg-gradient-to-r from-gray-300 via-yellow-600 to-yellow-700 animate-shimmer"></div>
         <div className="max-w-2xl mx-auto text-white py-10">
             <div className="text-center">
             <h3 className="text-3xl mb-3">Take Control of Your Appearance</h3>
@@ -13,7 +13,7 @@ export default function Footer() {
             </div>
             </div>
             <div className="mt-12 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
-            <p className="order-2 md:order-1 mt-8 md:mt-0">&copy; Beautiful Footer, 2021.</p>
+            <p className="order-2 md:order-1 mt-8 md:mt-0">&copy;BecomeYourOwnBarber - 2025</p>
             <div className="order-1 md:order-2">
                 <span className="px-2">About us</span>
                 <span className="px-2 border-l">Contact us</span>

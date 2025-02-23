@@ -75,12 +75,12 @@ export default function IntroAnimation() {
 
         {/* Main Title */}
         <h1 className="text-4xl sm:text-6xl font-bold text-white leading-relaxed max-w-4xl">
-        Become Your Own Barber - Save Money & Take Control of Your Hair!
+        Learn to Cut Like a Pro with Our Step-by-Step Barbering E-Book
         </h1>
 
         {/* Description */}
         <p className="mt-4 text-lg sm:text-xl text-neutral-300 max-w-2xl">
-        Ever wanted to cut your own hair but didn’t know where to start? With our step-by-step eBook and exclusive Discord community, you'll learn how to master the art of self-haircuts like a pro!
+        Discover the secrets to perfect fades, layers, and advanced cutting techniques. Whether you want to master self-cuts or start your own barbering business, our e-book has everything you need to succeed
         </p>
 
         {/* Call-to-Action Button */}

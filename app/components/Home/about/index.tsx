@@ -32,22 +32,19 @@ export default function AboutUs() {
               <div className="space-y-4 text-xl">
                 <h2>Who Are We?</h2>
                 <p className="opacity-40">
-                  Welcome to the home of self-made barbers! We believe anyone
-                  can learn the skills to confidently cut hair, whether for
-                  personal grooming or as a career. Our e-book is designed to
-                  guide you every step of the way, from mastering fades and
-                  layers to advanced cutting techniques that make you stand out.
+                Welcome to the home of self-made barbers! We believe anyone can learn the skills to confidently cut hair, whether for personal grooming or as a career. Our e-book is designed to guide you every step of the way, from mastering fades and layers to advanced cutting techniques that make you stand out
                 </p>
               </div>
               <div className="space-y-5 text-xl">
                 <h2>What Makes Us Different?</h2>
                 <p className="opacity-40">
-                  Unlike other guides, our e-book combines professional barbering
-                  techniques with easy-to-follow instructions. You&apos;ll learn
-                  not only how to cut your own hair but also how to impress
-                  clients with precision fades, clean layers, and creative
-                  styling. Whether you&apos;re just starting or want to level up
-                  your skills, we&apos;ve got you covered.
+                Unlike other guides, our e-book combines professional barbering techniques with easy-to-follow instructions. You'll learn not only how to cut your own hair but also how to impress clients with precision fades, clean layers, and creative styling. Whether you're just starting or want to level up your skills, we've got you covered
+                </p>
+              </div>
+              <div className="space-y-5 text-xl">
+                <h2>Why Choose Us?</h2>
+                <p className="opacity-40">
+                Unlike other guides, we blend pro barbering skills with easy, step-by-step instructions. Learn to cut your own hair with precision or impress clients with flawless fades and sharp styles. No matter your skill level, we've got you covered!
                 </p>
               </div>
               <Link href="/about">
